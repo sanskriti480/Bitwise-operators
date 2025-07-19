@@ -1,0 +1,48 @@
+//Sanskriti Khairnar
+//PRN - 24070123054
+//Batch - A2
+
+//Program 1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 32;
+    int b = 16;
+    
+    int bitwise_and = a&b;
+    cout << "AND: " << bitwise_and << endl;
+    int bitwise_or = a|b;
+    cout << "OR: " << bitwise_or << endl;
+    int bitwise_not = ~b;
+    cout << "NOT: " << bitwise_not << endl;
+    int bitwise_xor = a^b;
+    cout << "XOR: " << bitwise_xor << endl;
+    int bitwise_right_shift = a>>2;
+    cout << "RIGHT_SHIFT: " << bitwise_right_shift << endl;
+    int bitwise_left_shift = a<<2;
+    cout << "LEFT_SHIFT: " << bitwise_left_shift << endl;
+
+    return 0;
+}
+
+//Program 2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a=80 , b = 98 , bit_to_be_set , bit_to_be_reset , set , reset;
+    cout << "Enter the bit to be set: ";
+    cin >> bit_to_be_set;
+    set = a | (1<<bit_to_be_set);
+    cout << "The set is: " << set << endl;
+    
+    cout << "Enter the bit to be reset: ";
+    cin >> bit_to_be_reset;
+    reset = b & (~(1<<bit_to_be_reset));
+    cout << "The reset is: " << reset;
+
+    return 0;
+}
