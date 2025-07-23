@@ -42,14 +42,14 @@ Instead of dealing with entire variables, bitwise operators allow us to **manipu
 
 ### Bitwise Operators in C++
 
-| Operator | Symbol | Description |
-|----------|--------|-------------|
-| AND      | `&`    | Sets each bit to 1 if both bits are 1 |
-| OR       | `|`    | Sets each bit to 1 if at least one of the bits is 1 |
-| NOT      | `~`    | Inverts all the bits (0 becomes 1 and 1 becomes 0) |
-| XOR      | `^`    | Sets each bit to 1 if only one of the bits is 1 |
-| LEFT SHIFT | `<<` | Shifts bits to the left (multiplies number by 2ⁿ) |
-| RIGHT SHIFT | `>>` | Shifts bits to the right (divides number by 2ⁿ) |
+| Operator   | Symbol |                   Description                       |
+|----------  |--------|-----------------------------------------------------|
+| AND        |  `&`   | Sets each bit to 1 if both bits are 1               |
+| OR         |  `|`   | Sets each bit to 1 if at least one of the bits is 1 |
+| NOT        |  `~`   | Inverts all the bits (0 becomes 1 and 1 becomes 0)  |
+| XOR        |  `^`   | Sets each bit to 1 if only one of the bits is 1     |
+| LEFT SHIFT |  `<<`  | Shifts bits to the left (multiplies number by 2ⁿ)   |
+| RIGHT SHIFT|  `>>`  | Shifts bits to the right (divides number by 2ⁿ)     |
 
 ---
 
