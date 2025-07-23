@@ -106,18 +106,31 @@ This program shows how to **manipulate specific bits** of integers using bitwise
 ## Sample output
 
 Program 1
+
 AND: 0
+
 OR: 48
+
 NOT: -17
+
 XOR: 48
+
 RIGHT_SHIFT: 8
+
 LEFT_SHIFT: 128
 
+
 Program 2
+
 Enter the bit to be set: 4
+
 The set is: 80
+
 Enter the bit to be reset: 5
+
 The reset is: 66
+
+----
 
 ## Conclusion
 
